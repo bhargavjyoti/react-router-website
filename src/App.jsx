@@ -13,12 +13,13 @@ import Error from './pages/Error'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Navbar />}>
-      <Route index element={<Home />} />
+      <Route path='react-tailwind-website' index element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='plans' element={<Plans />}/>
       <Route path='contact' element={<Contact />} />
       <Route path='*' element={<Error />} />
     </Route>
+    
   )
 )
 

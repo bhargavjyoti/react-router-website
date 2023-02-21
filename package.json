@@ -2,6 +2,7 @@
   "name": "vnn",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://bhargavjyoti.github.io/react-tailwind-website/",
   "type": "module",
   "scripts": {
     "dev": "vite",

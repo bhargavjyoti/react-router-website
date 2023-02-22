@@ -13,11 +13,12 @@ import Error from './pages/Error'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Navbar />}>
+      <Route path='react-router-website/' element={<Home />} />
       <Route index element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='plans' element={<Plans />}/>
       <Route path='contact' element={<Contact />} />
-      
+
       <Route path='*' element={<Error />} />
     </Route>
   )

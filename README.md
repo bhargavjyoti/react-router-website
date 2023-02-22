@@ -7,7 +7,7 @@ In this website because of React Router the different pages of the website doesn
 
 ## Demo
 
-- Live Site URL: [Live Preview](https://bhargavjyoti.github.io/react-tailwind-website/)
+- Live Site URL: [Live Preview](https://bhargavjyoti.github.io/react-router-website/)
 
 
 ### Built with
